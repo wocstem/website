@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Jockey One', sans-serif;
+    background-color: #CD9BF9;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    position: fixed; /* Make navbar fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar stays on top */
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    height: 52px;
+  }
+  
+  .org-name {
+    font-weight: bold;
+    color: #393E41;
+    font-size: 1rem;
+  }
+  
+  /* Nav links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #393E41;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #629677;
+    color: white; /* Optional: makes text easier to read */
+  }
+  
+  /* Dropdown menu */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    background-color: #CD9BF9;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-content li {
+    margin: 0.5rem 0;
+    list-style: none;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    color: #393E41;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #629677;
+    color: white;
+  }
+  
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('winterSocial.jpg'); /* Replace with your actual image file name */
+    background-size: cover;
+    background-position: center;
+    height: 389px;
+    position: relative;
+    margin-top: 80px; /* Prevent overlap with navbar */
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Moves the content towards the top */
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .hero h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 1rem; /* Adjust this value to move the heading upwards */
+    font-family: 'Arial Black', Arial, sans-serif; /* Set font to Arial Black */
+  }
+  
+  .hero-button {
+    background-color: #CD9BF9;
+    color: #393E41;
+    padding: .75rem 4.5rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: 'Jockey One', sans-serif; /* Set font to Jockey One */
+    margin-top: 170px; /* Adjust this to move the button lower */
+  }
+  
+  .hero-button:hover {
+    background-color: #b478ec; /* Slightly darker purple on hover */
+  }
+  
+  .info-sections {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .info-block {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .info-block.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .info-image {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .info-text {
+    max-width: 500px;
+  }
+  
+  .info-text h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: #393E41;
+    margin-bottom: 1rem;
+  }
+  
+  .info-text p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .info-button {
+    background-color: #CD9BF9;
+    color: #393E41;
+    font-family: 'Jockey One', sans-serif;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .info-button:hover {
+    background-color: #b478ec;
+    color: white;
+  }
+  .footer {
+    background-color: #393E41;
+    color: #FFFFFF;
+    padding: 2rem 1rem;
+    font-family: 'Jockey One', sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .footer-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #CD9BF9;
+  }
+  
+  .footer-right a {
+    color: #CD9BF9;
+    text-decoration: none;
+  }
+  
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .social-icons a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #CD9BF9;
+  }
+  
