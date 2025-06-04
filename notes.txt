@@ -1,0 +1,7 @@
+Website structure:
+index.html <- homepage / landing page
+about.html <- about page
+eboard.html <- eboard info, subpage of about
+get-involved.html <- get involved page, subpage of about
+style.css <- where all of our styler choices live 
+event pics <- folder with any pictures used on the website

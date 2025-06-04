@@ -278,4 +278,30 @@ body {
   .social-icons a:hover {
     color: #CD9BF9;
   }
+  /* ABOUT PAGE STYLE */
+  .about-hero {
+    background-image: url('eventBanner.jpg'); /* Replace with your actual image file name */
+    background-size: cover;
+    background-position: center;
+    height: 389px;
+    position: relative;
+    margin-top: 80px; /* Prevent overlap with navbar */
+  }
   
+  .about-content {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-top: 10px;
+  }
