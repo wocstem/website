@@ -1,0 +1,119 @@
+.intro {
+	font-family:Arial;
+	padding-top:20px;
+	text-align:center;
+	margin-left:300px;
+	margin-right:300px;
+	color:#393E41;
+}
+
+.heading {
+	font-family:Arial, sans-serif;
+	text-align:center;
+	padding-top:50px;
+	font-size:30px;
+	color:#393E41;
+}
+
+
+.members{
+	padding-top:45px;
+	color:#393E41;
+}
+
+.container{
+	width: 1190px;
+	margin:0 auto;
+	display:flex;
+	
+}
+
+.members .image-container img{
+	width:175px;
+	height:225px;
+}
+
+.txt-container{
+	font-family:Arial, sans-serif;
+	padding:25px;
+	margin:0;
+	
+}
+
+.txt-container h1 {
+  margin-top: -28px; 
+}
+
+.txt-container span{
+	font-size:20px;
+	padding-right:20px;
+}
+
+.txt-container p{
+	font-size:20px;
+	padding-right:20px
+}
+
+.members .mem1-name {
+	margin-left:180px;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+}
+
+.members .mem1-year {
+	margin-left:110px;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+}
+
+.members .mem2-name {
+	font-family:Arial, sans-serif;
+	font-size:20px;
+	margin-left:1195px;
+}
+
+.members .mem2-year {
+	font-family:Arial, sans-serif;
+	font-size:20px;
+	margin-left:1140px;
+}
+
+.members .mem3-name {
+	margin-left:187px;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+}
+
+.members .mem3-year {
+	margin-left:120px;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+}
+
+.members .mem4-name {
+	font-family:Arial, sans-serif;
+	font-size:20px;
+	margin-left:1215px;
+}
+
+.members .mem4-year {
+	font-family:Arial, sans-serif;
+	font-size:20px;
+	margin-left:1085px;
+}
+
+.members .mem5-name {
+	margin-left:198px;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+}
+
+.members .mem5-year {
+	margin-left:80px;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+}
+
+
+
+
