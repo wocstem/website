@@ -24,3 +24,10 @@
     margin-top: 1rem; /* Adjust this value to move the heading upwards */
     font-family: 'Arial Black', Arial, sans-serif; /* Set font to Arial Black */
   }
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
