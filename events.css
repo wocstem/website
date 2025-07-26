@@ -1,3 +1,12 @@
+/* Hero Section */
+  .hero {
+    background-image: url('eventBanner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 389px;
+    position: relative;
+    margin-top: 80px; /* Prevent overlap with navbar */
+  }
 .hero-overlay {
     background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
     height: 100%;
