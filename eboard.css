@@ -1,23 +1,24 @@
 .intro {
-	font-family:"Times New Roman";
+	font-family:Arial;
 	padding-top:20px;
 	text-align:center;
 	margin-left:300px;
 	margin-right:300px;
+	color:#393E41;
 }
 
 .heading {
-	font-family:"Times New Roman";
+	font-family:Arial Black;
 	text-align:center;
 	padding-top:50px;
 	font-size:30px;
-	font-size:30px;
+	color:#393E41;
 }
 
 
 .members{
 	padding-top:45px;
-	
+	color:#393E41;
 }
 
 .container{
@@ -33,7 +34,7 @@
 }
 
 .txt-container{
-	font-family:"Times New Roman";
+	font-family:Arial, sans-serif;
 	padding:25px;
 	margin:0;
 	
@@ -45,73 +46,71 @@
 
 .txt-container span{
 	font-size:20px;
-	font-weight: bold;
-	padding-right:20px
+	padding-right:20px;
 }
 
 .txt-container p{
 	font-size:20px;
-	font-weight: bold;
 	padding-right:20px
 }
 
 .members .mem1-name {
-	margin-left:190px;
-	font-family:"Times New Roman";
+	margin-left:180px;
+	font-family:Arial, sans-serif;
 	font-size:20px;
 }
 
 .members .mem1-year {
-	margin-left:130px;
-	font-family:"Times New Roman";
+	margin-left:110px;
+	font-family:Arial, sans-serif;
 	font-size:20px;
 }
 
 .members .mem2-name {
-	font-family:"Times New Roman";
+	font-family:Arial, sans-serif;
 	font-size:20px;
-	margin-left:1200px;
+	margin-left:1195px;
 }
 
 .members .mem2-year {
-	font-family:"Times New Roman";
+	font-family:Arial, sans-serif;
 	font-size:20px;
-	margin-left:1150px;
+	margin-left:1140px;
 }
 
 .members .mem3-name {
-	margin-left:190px;
-	font-family:"Times New Roman";
+	margin-left:187px;
+	font-family:Arial, sans-serif;
 	font-size:20px;
 }
 
 .members .mem3-year {
-	margin-left:135px;
-	font-family:"Times New Roman";
+	margin-left:120px;
+	font-family:Arial, sans-serif;
 	font-size:20px;
 }
 
 .members .mem4-name {
-	font-family:"Times New Roman";
+	font-family:Arial, sans-serif;
 	font-size:20px;
 	margin-left:1215px;
 }
 
 .members .mem4-year {
-	font-family:"Times New Roman";
+	font-family:Arial, sans-serif;
 	font-size:20px;
-	margin-left:1105px;
+	margin-left:1085px;
 }
 
 .members .mem5-name {
-	margin-left:200px;
-	font-family:"Times New Roman";
+	margin-left:198px;
+	font-family:Arial, sans-serif;
 	font-size:20px;
 }
 
 .members .mem5-year {
-	margin-left:101px;
-	font-family:"Times New Roman";
+	margin-left:80px;
+	font-family:Arial, sans-serif;
 	font-size:20px;
 }
 
