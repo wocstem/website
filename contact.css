@@ -1,0 +1,36 @@
+.heading {
+	text-align:center;
+	padding-top:50px;
+	font-size:30px;
+	font-family:'Jockey One', sans-serif, Black;
+	color:#393E41;
+}
+
+.intro {
+	padding-top:20px;
+	text-align:center;
+	margin-left:507px;
+	margin-right:500px;
+	font-size:20px;
+	font-family:Arial, sans-serif;
+	color:#393E41;
+	
+}
+
+h2{
+    text-align:center;
+	padding-top:50px;
+	font-size:30px;
+	font-family:'Jockey One', sans-serif, Black;
+	color:#393E41;
+}
+
+.contact-info {
+    padding-top:20px;
+	text-align:center;
+	margin-left:507px;
+	margin-right:500px;
+	font-size:20px;
+	font-family:Arial, sans-serif;
+	color:#393E41;
+}
